@@ -6,13 +6,7 @@ Tecnologias aplicadas nesse projeto  👇👇👇
 |-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <img src="https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png " alt="drawing" width="200"/> | ExpressJS MongoDB cloudinary jsonwebtoken nodemailer bcryptjs cors |
 
-<p align="center">
-  <a href="https://travis-ci.org/yarnpkg/yarn"><img alt="Travis Status" src="https://travis-ci.org/yarnpkg/yarn.svg"></a>
-  <a href="https://circleci.com/gh/yarnpkg/yarn"><img alt="Circle Status" src="https://circleci.com/gh/yarnpkg/yarn.svg"></a>
 
-  <a href="https://discord.gg/yarnpkg"><img alt="Discord Chat" src="https://img.shields.io/discord/226791405589233664.svg"></a>
-  <a href="http://commitizen.github.io/cz-cli/"><img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg"></a>
-</p>
 
 
 ## Iniciando 
@@ -48,3 +42,6 @@ Todas as requisições são necessaria obrigatoriamente enviar os parametros **u
   "Response": "Esse usuario não existe"
 
 }
+```
+
+#### Registro
