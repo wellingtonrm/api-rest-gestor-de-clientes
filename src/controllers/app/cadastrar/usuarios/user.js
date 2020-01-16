@@ -1,7 +1,7 @@
-const GravandoUsuario = require('../usuarios/gravarStatusUsuario');
+const GravandoUsuario = require('./gravarStatusUsuario');
 
-const clienteCad = {
-    async addCliente(req, res) {
+
+const addUser = async (req, res) => {
 
         const { email } = req.body;
         GravandoUsuario(email, req.body, (erro, info)=>{
@@ -29,5 +29,5 @@ const clienteCad = {
         
 
     }
-}
-module.exports = clienteCad;
+
+module.exports = addUser;
