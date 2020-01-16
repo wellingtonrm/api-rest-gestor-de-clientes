@@ -1,0 +1,12 @@
+PORT=3000
+MONGO_DB=mongodb+srv://user:password@clusters-32fum.mongodb.net/test?retryWrites=true&w=majority
+MONGOLOCAL=mongodb://localhost:27017/cluster
+
+CLOUDINARY_NAME = XXXXXXXXX
+CLOUDINARY_KEY = XXXXXXXX
+CLOUDINARY_SECRET=XXXXXXX
+
+GMAIL_EMAIL = XXXXXXXXXXXX
+GMAIL_PASSWORD = XXXXXXXXXX
+
+PRODUCAO=true
