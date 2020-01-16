@@ -131,6 +131,6 @@ Diagrama de dados e campos coletados.
 
 | Clientes                                  | Email          | Grupo     | Campanha          |
 |-------------------------------------------|----------------|-----------|-------------------|
-| Nome Sobrenome Whatsapp email empresa obs | Campanha Corpo | nomeGrupo | nomeCampanha tags |
+| Nome <br> Sobrenome Whatsapp email empresa obs | Campanha Corpo | nomeGrupo | nomeCampanha tags |
 
 
