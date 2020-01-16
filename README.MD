@@ -79,6 +79,8 @@ Conta criada para utilização da API, Todos os usuario precisa ter um email val
 ```Javascript
 Request PUT('/ativacao')
 ``` 
+O codigo recebido por email
+
  ```json
 {
 	"codigo":"0000"
@@ -91,5 +93,18 @@ Request PUT('/ativacao')
   "CodHTTP": 200,
   "Erro": false,
   "Response": "A sua consta foi ativada com sucesso"
+}
+```
+Agora sim o acesso serar liberado para acesso a API. Faça authenticação novamente.
+
+**RESPONSE SUCESS**
+
+ ```json
+{
+  "Erro": false,
+  "nivel": "cliente",
+  "status": "ativo",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlMjA4NmNkYzAzOTE3NDVlNDQyMjk3NSIsImlhdCI6MTU3OTE5MTI4OSwiZXhwIjoxNTc5Mjc3Njg5fQ.4jqUQFv-af0HsiuhuT8oHbjQ0Dm-nIVMWIq00lZqNRA",
+  "Response": "Logado com sucesso"
 }
 ```
