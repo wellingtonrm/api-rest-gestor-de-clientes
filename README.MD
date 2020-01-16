@@ -109,3 +109,13 @@ Agora sim o acesso serar liberado para acesso a API. Faça authenticação novam
 }
 ```
 ---
+
+# Cabeçalho da requisição HEADER
+
+```Javascript
+   
+    headers: {
+    authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlMjA4NmNkYzAzOTE3NDVlNDQyMjk3NSIsImlhdCI6MTU3OTE5MTI4OSwiZXhwIjoxNTc5Mjc3Njg5fQ.4jqUQFv-af0HsiuhuT8oHbjQ0Dm-nIVMWIq00lZqNRA'
+  }
+  
+```
