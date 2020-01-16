@@ -119,3 +119,12 @@ Agora sim o acesso serar liberado para acesso a API. Faça authenticação novam
   }
 
 ```
+### Cabeçalho da requisição HEADER
+
+-------
+💪💪💪💪💪 MUITO TRABALHO
+
+-------
+
+
+
