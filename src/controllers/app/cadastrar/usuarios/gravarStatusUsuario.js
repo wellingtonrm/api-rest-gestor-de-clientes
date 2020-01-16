@@ -37,6 +37,7 @@ const GravarUsuario = async function(email, body, calback){
                        calback(false, "Registro com sucesso. Email enviado")
                        
                     } else {
+                        console.log(err)
 
                         calback(true, "erro no envio do email" )
                         

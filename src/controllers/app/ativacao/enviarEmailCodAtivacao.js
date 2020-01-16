@@ -22,7 +22,7 @@ const EnviarEmail = function({to, codigo}, calback){
     }
 config.sendMail(ConfigMenssage, (erro, info) => {
         if (erro) {
-         calback(true)
+         calback(erro)
         } else {
 
             calback(false)

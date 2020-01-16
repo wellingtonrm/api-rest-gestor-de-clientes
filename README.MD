@@ -63,3 +63,13 @@ Request POST('/register/user')
 	"celular":"21979299566"
 }  
 ```
+**RESPONSE SUCESS**
+
+ ```json
+{
+  "CodHTTP": 200,
+  "Erro": false,
+  "Response": "Registro com sucesso. Email enviado"
+}
+```
+Conta criada para utilização da API, Todos os usuario precisa ter um email valido para ativação com código.
