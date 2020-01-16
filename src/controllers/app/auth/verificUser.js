@@ -11,8 +11,8 @@ const VerificaUser = async (email, password, calback) => {
 
     const user = await SchemaCliente.findOne({ email }).select('+password');
     if (!user) {
-        console.log(email)
-        calback(true, email)
+       
+        calback(true, 'Essa conta não estar registrado')
 
     } else if (!await bcrypt.compare(password, user.password)) {
 

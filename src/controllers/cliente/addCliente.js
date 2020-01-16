@@ -1,7 +1,7 @@
 const addCliente = (req, res)=>{
 
     res.send({
-        response:'ok'
+        response:req.body
     })
 
 }
