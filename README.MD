@@ -28,7 +28,9 @@ Todas as requisições são necessaria obrigatoriamente enviar os parametros **u
    "user_token": "0119bfac59b29499e8d46d1c48431d9f"
 }   
 ```
-!!RESPONSE ```json
+!!RESPONSE SUCESS
+
+ ```json
 {
    
   "Erro": true,
