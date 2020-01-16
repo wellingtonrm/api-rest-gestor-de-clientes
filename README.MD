@@ -45,3 +45,13 @@ Todas as requisições são necessaria obrigatoriamente enviar os parametros **u
 ```
 
 #### Registro
+
+```json
+{
+	"email":"email@gmail.com", 
+	"nomeCompleto":"Wellington Ramos", 
+	"CPF":"00000000000", 
+	"password":"sd1212srd33", 
+	"celular":"21979299566"
+}  
+```
