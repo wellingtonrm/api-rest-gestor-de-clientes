@@ -26,7 +26,7 @@ Vamos levantar um servidor em **PHP**.
 Todas as requisições são necessaria obrigatoriamente enviar os parametros **user_id** e **user_token** no formato json.
 
 ```Javascript
-Request POST('/auth/cliente')
+Request POST('/auth/user')
 ``` 
 
 ```json
@@ -51,7 +51,7 @@ Request POST('/auth/cliente')
 #### Registro
 
 ```Javascript
-Request POST('/register/cliente')
+Request POST('/register/user')
 ```
 
 ```json

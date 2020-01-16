@@ -8,9 +8,9 @@ const multerCliente            = require('../config/multer-cloud-cliente')
 
 
 
-router.post('/auth/cliente', AuthenticacaoCliente);
-router.post('/register/cliente', addCliente);
-router.post('/vefic/cod/cliente', addCliente);
-router.post('/upload/cliente', [requestToken, multerCliente.single('file'),  uploadCliente]);
+router.post('/auth/user', AuthenticacaoCliente);
+router.post('/register/user', addCliente);
+router.post('/vefic/cod/user', addCliente);
+router.post('/upload/user', [requestToken, multerCliente.single('file'),  uploadCliente]);
 
 module.exports = router
