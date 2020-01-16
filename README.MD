@@ -129,8 +129,7 @@ Agora sim o acesso serar liberado para acesso a API. Faça authenticação novam
 
 Diagrama de dados e campos coletados.
 
-| Clientes                                  | Email          | Grupo     | Campanha          |
-|-------------------------------------------|----------------|-----------|-------------------|
-| Nome <br> Sobrenome Whatsapp email empresa obs | Campanha Corpo | nomeGrupo | nomeCampanha tags |
-
+| Clientes                                                                | Email                    | Grupo          | Campanha                    |
+|-------------------------------------------------------------------------|--------------------------|----------------|-----------------------------|
+| Nome<br > Sobrenome<br > Whatsapp<br > email<br > empresa<br > obs<br > | Campanha<br > Corpo<br > | nomeGrupo<br > | nomeCampanha<br > tags<br > |
 
