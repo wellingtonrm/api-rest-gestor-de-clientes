@@ -79,7 +79,7 @@ Conta criada para utilização da API, Todos os usuario precisa ter um email val
 ```Javascript
 Request PUT('/ativacao')
 ``` 
-O codigo recebido por email
+O codigo recebido por email cadastrado.
 
  ```json
 {
@@ -108,3 +108,4 @@ Agora sim o acesso serar liberado para acesso a API. Faça authenticação novam
   "Response": "Logado com sucesso"
 }
 ```
+---
