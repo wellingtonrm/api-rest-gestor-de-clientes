@@ -1,4 +1,4 @@
-const SchemaUploadCliente  = require('../../../../models/schemaMongo/uploadCliente');
+const SchemaUploadCliente  = require('../../models/schemaMongo/uploadCliente');
 
 
 const upload = {
