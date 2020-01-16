@@ -1,4 +1,4 @@
-const SchemaCliente = require('../../../models/schemaMongo/cliente');
+const SchemaCliente = require('../../../models/schemaMongo/user');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const config = require('../../../config');

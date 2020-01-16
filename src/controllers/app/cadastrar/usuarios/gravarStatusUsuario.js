@@ -1,4 +1,4 @@
-const SchemaCliente       = require('../../../../models/schemaMongo/cliente');
+const SchemaCliente       = require('../../../../models/schemaMongo/user');
 const SchemaStatusUsuario = require('../../../../models/schemaMongo/statusUsuario')
 const SchemaCodAtivacao   = require('../../../../models/schemaMongo/codAtivacao');
 const EnviarEmail         = require('../../ativacao/enviarEmailCodAtivacao');

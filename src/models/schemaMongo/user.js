@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs');
 const { Schema } = Conexao;
 
 
-const ClienteSchema = new Schema({
+const UserSchema = new Schema({
     
     nomeCompleto: {
         type: String,
@@ -45,4 +45,4 @@ ClienteSchema.pre('save', async function (next) {
 
     next();
 });
-module.exports = Conexao.model('clientes', ClienteSchema);
+module.exports = Conexao.model('Usuarios', UserSchema);
