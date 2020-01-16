@@ -5,8 +5,9 @@ const AuthCliente = {
 
         const { email, password } = req.body;
         VerificUser(email, password, (erro, info, token, nivel, status)=>{
+          
           if(!erro){
-
+            
 
                 const tokens = token
                 res.status(200).json({

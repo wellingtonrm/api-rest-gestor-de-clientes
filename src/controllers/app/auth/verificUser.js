@@ -7,12 +7,12 @@ const enviarEmail = require('../ativacao/enviarEmailCodAtivacao')
 const UpdateCodigo = require('./updateCodigo')
 
 
-const VerificaUsuario = async (email, password, calback) => {
+const VerificaUser = async (email, password, calback) => {
 
     const user = await SchemaCliente.findOne({ email }).select('+password');
     if (!user) {
-
-        calback(true, "Esse usuario não existe")
+        console.log(email)
+        calback(true, email)
 
     } else if (!await bcrypt.compare(password, user.password)) {
 
@@ -64,4 +64,4 @@ const VerificaUsuario = async (email, password, calback) => {
         })
     }
 }
-    module.exports = VerificaUsuario;
+    module.exports = VerificaUser;

@@ -23,7 +23,7 @@ Vamos levantar um servidor em **PHP**.
 ```
 
 #### Athenticação
-Todas as requisições são necessaria obrigatoriamente enviar os parametros **user_id** e **user_token** no formato json.
+Todas as requisições são necessaria obrigatoriamente enviar os parametros **email** e **password** no formato json.
 
 ```Javascript
 Request POST('/auth/user')
@@ -31,8 +31,8 @@ Request POST('/auth/user')
 
 ```json
 {
-   "user_id":"d34333ef67ax90",
-   "user_token": "0119bfac59b29499e8d46d1c48431d9f"
+   "email":"email@email.com",
+   "password": "0119bfac59b29499e8d46d1c48431d9f"
 }   
 ```
 
@@ -72,4 +72,24 @@ Request POST('/register/user')
   "Response": "Registro com sucesso. Email enviado"
 }
 ```
-Conta criada para utilização da API, Todos os usuario precisa ter um email valido para ativação com código.
+Conta criada para utilização da API, Todos os usuario precisa ter um email valido para ativação com código. 
+
+#### Ativar conta
+
+```Javascript
+Request PUT('/ativacao')
+``` 
+ ```json
+{
+	"codigo":"0000"
+}
+```
+**RESPONSE SUCESS**
+
+ ```json
+{
+  "CodHTTP": 200,
+  "Erro": false,
+  "Response": "A sua consta foi ativada com sucesso"
+}
+```
