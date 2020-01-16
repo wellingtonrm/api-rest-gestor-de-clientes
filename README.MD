@@ -25,6 +25,10 @@ Vamos levantar um servidor em **PHP**.
 #### Athenticação
 Todas as requisições são necessaria obrigatoriamente enviar os parametros **user_id** e **user_token** no formato json.
 
+```Javascript
+Request POST('/auth/cliente')
+``` 
+
 ```json
 {
    "user_id":"d34333ef67ax90",
@@ -45,6 +49,10 @@ Todas as requisições são necessaria obrigatoriamente enviar os parametros **u
 ```
 
 #### Registro
+
+```Javascript
+Request POST('/register/cliente')
+```
 
 ```json
 {
