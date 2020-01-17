@@ -20,13 +20,15 @@ const storage = cloudinaryStorage({
     filename: function (req, file, cb) {
         crypto.randomBytes(16, (err, hash) => {
             if (err) {
+               
                 
                 cb(err)
             } else {
 
                 file.key = `${hash.toString('hex')}-${file.originalname}`
-
-                cb(null, file.key);
+                const {key} = file
+              
+               cb(null, key);
             }
         })
     }

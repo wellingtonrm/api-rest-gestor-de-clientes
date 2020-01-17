@@ -1,9 +1,9 @@
 const router                   = require('express').Router();
 const { AuthenticacaoCliente } = require('../controllers/app/auth/authic');
-const  addUser                 = require('../controllers/app/cadastrar/usuarios/user');
+const addUser                  = require('../controllers/app/cadastrar/usuarios/user');
 const addCliente               = require('../controllers/cliente/addCliente')
-const { uploadCliente }        = require('../controllers/cliente/uploadCliente');
-const  requestToken            = require('../middleware/requestToken');
+const uploadCliente            = require('../controllers/cliente/uploadCliente');
+const requestToken             = require('../middleware/requestToken');
 const multer                   = require('multer');
 const multerCliente            = require('../config/multer-cloud-cliente')
 

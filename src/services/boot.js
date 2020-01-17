@@ -4,6 +4,8 @@ const app = require('../app');
 const http = require('http');
 
 const Server = http.Server(app);
+const io = require('socket.io')(Server);
+  
 module.exports = (err)=>{
     //console.clear();
     if(err){
